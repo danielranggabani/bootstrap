@@ -1,0 +1,154 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.header .navbar-brand{
+    font-size: 27px;
+}
+
+.header .navbar-nav a{
+    color: black;
+    font-size: 15px;
+    margin-inline: 10px;
+}
+
+.header .navbar-nav a:hover{
+    color: #219ebc
+}
+
+.header .container .row{
+    min-height: 90vh;
+}
+
+.header .row .col button{
+    width: 40px;
+    height: 40px;
+}
+
+.header .row .col:nth-child(1) h1{
+    font-size: 70px;
+    color: #001d3d;
+}
+
+.header .container .row .col:nth-child(1) p{
+    font-size: 20px;
+}
+
+.header .row .col:nth-child(2) img:nth-child(1){
+    width: 470px;
+    z-index: 2;
+    transition: 1s;
+}
+
+.header .row .col:nth-child(2) img:nth-child(2){
+    width: 600px;
+    z-index: 1;
+}
+
+.header .row .col:nth-child(2) img:nth-child(1):hover{
+    transform: scale(1.2);
+}
+
+.rangga{
+    color: #001d3d;
+    transition: 1s;
+}
+
+.rangga:hover{
+    color: #0d6efd;
+}
+
+.about .container .row .col-md-6:nth-child(1) img{
+    width: 400px;
+    margin-top: 50px;
+    box-shadow:  27px 27px 44px #bebebe,
+                 -27px -27px 44px #ffffff;
+}
+
+.about .container .row .col-md-6:nth-child(2) h2{
+    font-size: 50px;
+    margin-top: 250px;
+}
+
+.skills .container .row .col h2{
+    margin-top: 100px;
+    font-size: 70px;
+}
+
+.skills .container .row{
+    min-height: auto;
+}
+
+.progress-name{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.col-md-12 .progress .progress-bar .progress-value{
+    color: #fff;
+    font-weight: bold;
+}
+
+.col-md-12 .progress .progress-bar{
+    animation: animate-positive 2s;
+    box-shadow: 10px 17px 29px 3px rgba(153,153,153,0.68);
+}
+
+.skills .container{
+    min-height: 85vh;
+}
+
+.school .container{
+    min-height: 85vh;
+}
+
+.school-name .container .row .col h2{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.contacts .container .row .col h2{
+    font-size: 70px;
+}
+
+.school-name .container .row:nth-child(2) .col .card{
+    box-shadow:  27px 27px 44px #bebebe,
+                -27px -27px 44px #ffffff;
+    transition: 1s;
+}
+
+.school-name .container .row:nth-child(2) .col .card:hover{
+    transform: scale(1.2);
+}
+
+.contacts .container:nth-child(2) .row .col button{
+    width: 40px;
+}
+
+.contacts .container:nth-child(3) .row .col img{
+    width: 400px;
+    border-radius: 200px;
+    margin-top: 20px;
+    box-shadow:  27px 27px 44px #bebebe,
+                -27px -27px 44px #ffffff;
+}
+
+.container .row h2{
+    color: #001d3d;
+}
+
+.wave{
+    width: 100%;
+}
+
+@-webkit-keyframes animate-positive{
+    0%{
+        width: 0;
+    }
+}
+
+@keyframes animate-positive{
+    0%{
+        width: 0;
+    }
+}
